@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElkCl0ner's Portfolio</title>
+
+    <!---- IMPORT STYLESHEETS ---->
+    <link rel="stylesheet" href="./stylesheet.css">
+
+    <!---- IMPORT LIBRARIES ---->
+    <script src="./include/gpu/gpu-browser.min.js"></script>
+
+    <!---- IMPORT PARAMETERS ---->
+    <script src="./src/parameters.js"></script>
+
+    <!---- IMPORT UTILS ---->
+    <script src="./src/utils.js"></script>
+
+    <!---- IMPORT RAY TRACER ---->
+
+    <!-- Linear Algebra -->
+    <script src="./src/linear-algebra.js"></script>
+
+    <!-- Geometry -->
+    <script src="./src/geometry/geometry.js"></script>
+    <script src="./src/geometry/sphere.js"></script>
+    <script src="./src/geometry/plane.js"></script>
+
+    <!-- Camera -->
+    <script src="./src/ray-tracing/camera.js"></script>
+
+    <!-- Scene -->
+    <script src="./src/ray-tracing/scene.js"></script>
+
+    <!-- Kernel Functions -->
+    <script src="./src/kernel-functions.js"></script>
+
+    <!-- Ray Tracer -->
+    <script src="./src/ray-tracer.js"></script>
+
+</head>
+<body>
+    <canvas id="screen"></canvas>
+    <div id="fps_module">
+        <span>Fps: </span>
+        <span id="fps_counter"></span>
+    </div>
+
+    <!-- Portfolio -->
+    <script src="./portfolio.js"></script>
+</body>
+</html>
